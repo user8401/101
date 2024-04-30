@@ -1,0 +1,21 @@
+install netbeans 8.2
+file->new project ->javaweb->web application
+name-Assignment-7
+server->GlassFIsh Server 4.1.1
+Java EE-Java EE 7 web
+framework-no framework
+Assinment7->rightclick->new->web service
+project-MyCalculatorWebService
+package-com.myservice
+create web service from stractch
+MycalculatorWebService->rightclick->add operation
+addition ,double
+parameter->add
+num1 double
+num2 double
+same for substraction multiplication division
+return0.0 to return num1+num2 and so on
+Assignment7->rightclick->build
+window->output
+Assignment7->rightclick->deploy
+MycalculatorWebService.java->rightclick->TestWebService
